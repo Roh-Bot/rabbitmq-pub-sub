@@ -1,4 +1,4 @@
-module github.com/Roh-bot/rabbitmq-pub-sub
+module github.com/Roh-Bot/rabbitmq-pub-sub
 
 go 1.22.0
 

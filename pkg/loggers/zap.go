@@ -1,8 +1,8 @@
 package loggers
 
 import (
-	"github.com/Roh-bot/rabbitmq-pub-sub/internal/config"
-	"github.com/Roh-bot/rabbitmq-pub-sub/pkg/global"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/internal/config"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/pkg/global"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"log"

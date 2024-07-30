@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/Roh-bot/rabbitmq-pub-sub/pkg/global"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/pkg/global"
 	"github.com/knadh/koanf/parsers/yaml"
 	"github.com/knadh/koanf/providers/file"
 	"github.com/knadh/koanf/v2"

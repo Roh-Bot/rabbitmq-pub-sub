@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/Roh-bot/rabbitmq-pub-sub/internal/config"
-	"github.com/Roh-bot/rabbitmq-pub-sub/internal/db"
-	"github.com/Roh-bot/rabbitmq-pub-sub/internal/messagebrokers"
-	"github.com/Roh-bot/rabbitmq-pub-sub/pkg/global"
-	"github.com/Roh-bot/rabbitmq-pub-sub/pkg/loggers"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/internal/config"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/internal/db"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/internal/messagebrokers"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/pkg/global"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/pkg/loggers"
 	"log"
 	"sync"
 	"time"

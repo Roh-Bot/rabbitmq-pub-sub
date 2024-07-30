@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Roh-bot/rabbitmq-pub-sub/internal/config"
+	"github.com/Roh-Bot/rabbitmq-pub-sub/internal/config"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"log/slog"
