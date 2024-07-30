@@ -1,0 +1,32 @@
+#Database configuration
+database:
+  postgres:
+    host: localhost
+    port: 5432
+    user: postgres
+    password: admin
+    database: postgres
+
+#RabbitMQ configuration
+rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  user: guest
+  password: guest
+  exchange: Publisher
+
+#logger configuration
+logger:
+  level: debug
+  file: ./internal/logs/flush.log
+  format: json
+  output: stdout
+  is_development: true
+  encoding: json
+
+#backoff configuration
+backoff:
+  initial_interval: 3
+  max_interval: 3
+  multiplier: 1
+  max_elapsed_time: 60
